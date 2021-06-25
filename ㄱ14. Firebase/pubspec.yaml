@@ -1,0 +1,29 @@
+name: firebase_example
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^0.5.3         # 파이어베이스 기본 패키지
+  firebase_analytics: ^6.3.0    # 파이어베이스 애널리틱스 패키지
+  firebase_database: ^4.2.0     # 파이어베이스 데이터베이스 패키지
+  firebase_messaging: ^7.0.3    # 파이어베이스 메시징 패키지
+  firebase_admob: ^0.10.3       # 파이어베이스 애드몹 패키지
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
